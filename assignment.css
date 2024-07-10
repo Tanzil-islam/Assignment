@@ -1,0 +1,804 @@
+/* navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+
+}
+
+.primary-font {
+    font-family: "Azeret Mono", monospace;
+}
+
+.nav-text {
+    font-size: 28px;
+    color: #0D1321;
+    margin-left: 150px;
+    font-weight: 800;
+
+}
+
+.btn-frame {
+    position: absolute;
+    width: 228px;
+    height: 58px;
+    left: 1046px;
+    top: 38px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    background-color: white;
+
+    opacity: 0.8;
+
+}
+
+
+.btn-text {
+    font-size: 20px;
+    color: #0D1321;
+    font-weight: 600;
+    position: static;
+    width: 180px;
+    height: 24px;
+}
+
+/* ....................navbar........................ */
+
+/* Hero */
+
+.hero {
+    background-image: url('Hero-bg.png');
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+}
+
+.image {
+    width: 240.28px;
+    height: 240px;
+    left: 257.67%;
+    right: -257.67%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.head-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sub-heading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.head-btn {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+
+.head-text {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/*............................. Hero & Header........................... */
+
+/* Main */
+
+.main {
+    position: absolute;
+    width: 1140px;
+    height: 1395px;
+    left: 199px;
+    right: 152px;
+    top: 857px;
+    bottom: 2993px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    width: 946px;
+    height: 1235px;
+
+}
+
+.main-text {
+
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.question {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    position: static;
+    height: 39px;
+    width: 852px;
+}
+
+.main-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 0px;
+    width: 850px;
+    height: 240px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 10px;
+    width: 477px;
+    height: 220px;
+}
+
+.card-para {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-subpara {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.card-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    width: 150px;
+    height: 48px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+}
+
+.card-btn-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 600;
+
+}
+
+.card-text a {
+    text-decoration: none;
+}
+
+
+
+
+.card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px;
+}
+
+.card-info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 0px;
+    width: 850px;
+    height: 240px;
+}
+
+.card-text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 10px;
+    width: 477px;
+    height: 220px;
+}
+
+.card-para2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-subpara2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.card-btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    width: 150px;
+    height: 48px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+}
+
+.card-btn-text2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 600;
+
+}
+
+.card-text2 a {
+    text-decoration: none;
+}
+
+/*............................. Cards........................... */
+
+.inspire {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 0px;
+    width: 1140px;
+    height: 777px;
+    left: 148px;
+    right: 152px;
+    top: 2340px;
+    bottom: 2128px;
+}
+
+.inspire-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 852px;
+    height: 115px;
+    margin: 55px 0px;
+
+    margin-bottom: 100px;
+
+}
+
+.inspire-heading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspire-p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video iframe {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 1140px;
+    height: 463px;
+    margin: 111px 0px;
+}
+
+/*Target*/
+
+.t-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 1140px;
+    height: 300px;
+    margin: 48px 0px;
+}
+
+.t-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.t-card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    width: 284px;
+    height: 220px;
+    margin: 32px 0px;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+}
+
+.t-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 284px;
+    height: 140px;
+    margin: 16px 0px;
+}
+
+.p1 {
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+
+}
+
+.p2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+    width: 284px;
+    height: 52px;
+}
+
+.t-text a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    width: 284px;
+    height: 20px;
+    margin: 24px 0px;
+}
+
+.css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.nt-target {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 1140px;
+    height: 871px;
+    margin: 111px 0px;
+}
+
+.nt-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1140px;
+    height: 708px;
+    margin: 24px 0px;
+}
+
+.nt-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    width: 1140px;
+    height: 220px;
+    margin: 15px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.nt-card-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 1060px;
+    height: 140px;
+    margin: 40px 0px;
+
+}
+
+.nt-logo {
+    width: 94.78px;
+    height: 108px;
+    margin: 40px 24px;
+
+}
+
+.nt-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 941.22px;
+    height: 140px;
+    margin: 40px 0px;
+}
+
+.nt-name {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 97px;
+    height: 36px;
+    margin: 8px 0px;
+}
+
+.nt-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+    width: 941.22px;
+    height: 52px;
+}
+
+.nt-text a {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    width: 284px;
+    height: 20px;
+
+}
+
+.node {
+    width: 143.3px;
+    height: 87.75px;
+    left: 0.05%;
+    right: 0.1%;
+    top: 0%;
+    bottom: 0.28%;
+}
+
+.support {
+    background-image: url('handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    height: 314px;
+    margin-left: 200px;
+    margin-right: 150px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px;
+    width: 1044px;
+    height: 186px;
+    margin: 32px 0px;
+
+}
+
+.support-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 730px;
+    height: 104px;
+    margin: 24px 0px;
+}
+
+.ps1 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.ps2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+    width: 606px;
+    height: 52px;
+}
+
+form {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 684px;
+    height: 58px;
+    margin: 24px 0px;
+
+}
+
+input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+}
+
+.bts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.bts span {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 80px;
+    height: 24px;
+}
+
+/*.............................Main........................... */
+
+
+/*............................Footer.......................... */
+.footer {
+    display: flex;
+    width: 1550px;
+    height: 100px;
+    left: 0;
+    top: 5145px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 150px;
+    width: 1140px;
+    height: 36px;
+}
+
+.footer-cont p {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+}
